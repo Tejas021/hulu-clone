@@ -7,7 +7,7 @@ const BASE_URL="https://image.tmdb.org/t/p/original"
 function Thumbnail({show}) {
     return (
         <div className='p-2 group cursor-pointer transition-ease-in tansform sm:hover:scale-105 hover:z-50'>
-           <Image layout="responsive" height={1080} width={1920} src={`${BASE_URL}${show.backdrop_path}`}/>
+           <Image alt={show.title||show.original_name} layout="responsive" height={1080} width={1920} src={`${BASE_URL}${show.backdrop_path}`}/>
         
         <div className='p-2'>
             <p className='truncate max-w-md'>{show.overview}</p>

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import React from 'react'
+// import React from 'react'
 import HeaderItem from './HeaderItem'
 // import request from '../utils/requests'
 import {SearchIcon,LightningBoltIcon,CollectionIcon,UserIcon,BadgeCheckIcon,HomeIcon} from "@heroicons/react/outline"

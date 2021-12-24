@@ -16,7 +16,7 @@ export default function Home(props) {
       </Head>
 <Header/>
 <Nav/>
-
+{console.log("props",props)}
 <Result results={props.results}/>
     </div>
   )

@@ -7,7 +7,7 @@ const Header = (props) => {
     return (
         
         <div className='flex  flex-col h-auto justify-between items-center sm:flex-row'>
-            {console.log(props)}
+          
         <div className='max-w-xl flex flex-grow justify-evenly'>
             <HeaderItem title="HOME" Icon={HomeIcon} />
             <HeaderItem title="TRENDING" Icon={LightningBoltIcon} />
